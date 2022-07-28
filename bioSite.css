@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Mochiy+Pop+One&display=swap');
+
+:root{
+  --tan:#f1ddbf;
+  --cobalt:#525e75;
+  --nightgreen:#78938a;
+  --mistgreen:#92ba92;  
+}
+
+body {
+    background-color: var(--tan);
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+header {
+    background-color: var(--cobalt);
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    padding: 40px 15px;
+}
+
+footer {
+    background-color: var(--nightgreen);
+    padding: 12px;
+}
+
+h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 2px solid var(--mistgreen);
+    box-shadow: 0 0 15px black;
+}
